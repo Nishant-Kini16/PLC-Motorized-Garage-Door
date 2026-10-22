@@ -1,4 +1,4 @@
-# Motorized Garage Door Control — Polished Notes
+# Motorized Garage Door Control
 
 ## Problem Statement
 
