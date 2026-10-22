@@ -1,12 +1,7 @@
-# GX Works3 Program Screenshot
+# GX Works3 Program
 
 This folder is intended to contain the latest GX Works3 ladder screenshot for the garage-door control project.
 
-## Screenshot to add
-
-Save the screenshot as:
-
-`images/gxworks3-final.png`
 
 The screenshot should show these four rungs:
 1. Opening command latch: `(X0 OR M0) AND NOT X2 AND NOT M1 -> M0`
