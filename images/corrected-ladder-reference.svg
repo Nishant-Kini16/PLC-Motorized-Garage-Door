@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="880" viewBox="0 0 1400 880">
+<rect width="1400" height="880" fill="white"/>
+<text x="50" y="45" font-family="Arial,sans-serif" font-size="28" font-weight="bold" fill="#111">PLC Motorized Garage Door — Corrected Ladder Reference</text>
+<text x="50" y="76" font-family="Arial,sans-serif" font-size="16" fill="#333">Assumed mapping: X0 OPEN, X1 CLOSE, X2 open limit, X3 closed limit, M0 opening, M1 closing, Y0 open output, Y1 close output</text>
+<g stroke="#222" stroke-width="3" fill="none" stroke-linecap="square">
+<line x1="65" y1="115" x2="65" y2="795"/><line x1="1335" y1="115" x2="1335" y2="795"/>
+<!-- rung1 -->
+<line x1="65" y1="190" x2="155" y2="190"/><line x1="155" y1="190" x2="155" y2="155"/><line x1="155" y1="155" x2="215" y2="155"/><line x1="155" y1="190" x2="155" y2="225"/><line x1="155" y1="225" x2="215" y2="225"/>
+<line x1="215" y1="135" x2="215" y2="175"/><line x1="235" y1="135" x2="235" y2="175"/><line x1="215" y1="155" x2="215" y2="155"/><line x1="235" y1="155" x2="300" y2="155"/>
+<line x1="215" y1="205" x2="215" y2="245"/><line x1="235" y1="205" x2="235" y2="245"/><line x1="235" y1="225" x2="300" y2="225"/>
+<line x1="300" y1="155" x2="300" y2="225"/><line x1="300" y1="190" x2="435" y2="190"/>
+<line x1="435" y1="170" x2="435" y2="210"/><line x1="455" y1="170" x2="455" y2="210"/><line x1="455" y1="190" x2="610" y2="190"/>
+<line x1="610" y1="170" x2="610" y2="210"/><line x1="630" y1="170" x2="630" y2="210"/><line x1="630" y1="190" x2="1190" y2="190"/>
+<circle cx="1240" cy="190" r="25"/><line x1="1265" y1="190" x2="1335" y2="190"/>
+<!-- rung2 -->
+<line x1="65" y1="370" x2="155" y2="370"/><line x1="155" y1="370" x2="155" y2="335"/><line x1="155" y1="335" x2="215" y2="335"/><line x1="155" y1="370" x2="155" y2="405"/><line x1="155" y1="405" x2="215" y2="405"/>
+<line x1="215" y1="315" x2="215" y2="355"/><line x1="235" y1="315" x2="235" y2="355"/><line x1="235" y1="335" x2="300" y2="335"/>
+<line x1="215" y1="385" x2="215" y2="425"/><line x1="235" y1="385" x2="235" y2="425"/><line x1="235" y1="405" x2="300" y2="405"/>
+<line x1="300" y1="335" x2="300" y2="405"/><line x1="300" y1="370" x2="435" y2="370"/>
+<line x1="435" y1="350" x2="435" y2="390"/><line x1="455" y1="350" x2="455" y2="390"/><line x1="455" y1="370" x2="610" y2="370"/>
+<line x1="610" y1="350" x2="610" y2="390"/><line x1="630" y1="350" x2="630" y2="390"/><line x1="630" y1="370" x2="1190" y2="370"/>
+<circle cx="1240" cy="370" r="25"/><line x1="1265" y1="370" x2="1335" y2="370"/>
+<!-- rung3 -->
+<line x1="65" y1="570" x2="435" y2="570"/><line x1="435" y1="550" x2="435" y2="590"/><line x1="455" y1="550" x2="455" y2="590"/><line x1="455" y1="570" x2="1190" y2="570"/><circle cx="1240" cy="570" r="25"/><line x1="1265" y1="570" x2="1335" y2="570"/>
+<!-- rung4 -->
+<line x1="65" y1="720" x2="435" y2="720"/><line x1="435" y1="700" x2="435" y2="740"/><line x1="455" y1="700" x2="455" y2="740"/><line x1="455" y1="720" x2="1190" y2="720"/><circle cx="1240" cy="720" r="25"/><line x1="1265" y1="720" x2="1335" y2="720"/>
+</g>
+<g font-family="Arial,sans-serif" fill="#111" font-size="17">
+<text x="80" y="135" font-weight="bold">Rung 1 — OPEN</text>
+<text x="205" y="125">X0 NO</text><text x="180" y="265">M0 NO (seal-in)</text><text x="408" y="155">X2 NC</text><text x="582" y="155">M1 NC</text><text x="1220" y="145" font-weight="bold">M0</text>
+<text x="80" y="315" font-weight="bold">Rung 2 — CLOSE</text>
+<text x="205" y="305">X1 NO</text><text x="180" y="445">M1 NO (seal-in)</text><text x="408" y="335">X3 NC</text><text x="582" y="335">M0 NC</text><text x="1220" y="325" font-weight="bold">M1</text>
+<text x="80" y="515" font-weight="bold">Rung 3 — OPEN output</text><text x="408" y="535">M0 NO</text><text x="1220" y="525" font-weight="bold">Y0</text>
+<text x="80" y="665" font-weight="bold">Rung 4 — CLOSE output</text><text x="408" y="685">M1 NO</text><text x="1220" y="675" font-weight="bold">Y1</text>
+<text x="50" y="830" font-size="15">Verify all device addresses and sensor states. This is a reference drawing, not a native GX Works3 project file.</text>
+</g></svg>
